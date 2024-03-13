@@ -1,0 +1,12 @@
+.avatar {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+
+  color: var(--accent2-color);
+  transition: 0.2s;
+  text-decoration: none;
+  &:hover {
+    opacity: 0.7;
+  }
+}

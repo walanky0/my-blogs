@@ -1,0 +1,18 @@
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+.checkbox__input_wrapper {
+  margin-top: 2px;
+}
+
+.input {
+  cursor: pointer;
+}
+
+.checkbox__content {
+  font-size: 13px;
+  user-select: none;
+  cursor: pointer;
+}

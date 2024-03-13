@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.tags {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.tag {
+  list-style: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.column {
+}
+.pagination {
+}

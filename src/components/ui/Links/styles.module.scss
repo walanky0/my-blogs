@@ -1,0 +1,10 @@
+.baseLink {
+  color: var(--main-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: var(--accent-color);
+  }
+}

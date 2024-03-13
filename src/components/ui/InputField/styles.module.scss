@@ -1,0 +1,65 @@
+.wrapper {
+}
+.label {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+.inputField {
+  position: relative;
+  margin-bottom: 2px;
+}
+.input {
+  outline: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid var(---side-color);
+  padding: 10px 5px;
+  transition: 0.2s;
+  &:hover,
+  &:focus {
+    background: var(---side-color);
+  }
+}
+.wrapperEye {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.2s;
+  &:hover {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+  &:active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(0.98);
+  }
+}
+
+.eye {
+  width: 20px;
+  height: 20px;
+  animation: 1s showEue;
+}
+
+.error {
+  font-size: 12px;
+  color: var(--accent-color);
+}
+
+@keyframes showEue {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
